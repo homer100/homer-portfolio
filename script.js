@@ -129,8 +129,7 @@ contactForm?.addEventListener("submit", (event) => {
     return;
   }
 
-  // Replace this address with your email, or connect a form service for backend delivery.
-  const recipient = "your.email@example.com";
+  const recipient = "homer.conda@sorsu.edu.ph";
   const subject = encodeURIComponent(`Portfolio message from ${name}`);
   const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
   window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
