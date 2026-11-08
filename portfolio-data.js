@@ -39,9 +39,29 @@ const certificates = [
 ];
 
 // PROJECT IMAGES:
-// Put real project screenshots inside public/images/projects/
-// Add an entry here only when you have a project you want to share.
-const projects = [];
+// Put project screenshots inside public/images/projects/ and add their details here.
+const projects = [
+  {
+    name: "Listahan ni Nanay",
+    type: "Manual testing & evaluation",
+    description: "Manually tested and evaluated the Listahan ni Nanay grocery-list app.",
+    image: "public/images/projects/listahan-ni-nanay.jpg",
+    imageAlt: "Listahan ni Nanay grocery-list app concept with a shopping cart and peso, grocery, and produce icons",
+    technologies: ["Manual Testing", "App Evaluation"],
+    github: "",
+    demo: ""
+  },
+  {
+    name: "IsdaPresyo",
+    type: "Manual testing & evaluation",
+    description: "Manually tested and evaluated IsdaPresyo, a fish-price monitoring app for the Bulan, Sorsogon fish market.",
+    image: "public/images/projects/isda-presyo.jpg",
+    imageAlt: "IsdaPresyo fish price monitoring interface for Bulan, Sorsogon, showing a fish type selector and public read-only view",
+    technologies: ["Manual Testing", "App Evaluation"],
+    github: "",
+    demo: ""
+  }
+];
 
 // ===== EDIT YOUR SKILLS HERE =====
 // Keep the level descriptions honest; these are beginner-friendly examples.
